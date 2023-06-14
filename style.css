@@ -2,15 +2,39 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h4{
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+        background-color: #3882f6;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 17px;
+        width: 130px;
+        height: 20px;
+}
+
+
+body {
+    display: block;
+    margin: 0px;
+}
+/* Header*/
+
 .header{
+    margin-right: 18%;
+    margin-left: 18%;
     color: white;
     background-color: #1f2937;
     align-items: center;
     flex: 1;
     display: flex;
 .nav{
+    background-color: #1f2937;
+    gap: 30px;
     color: white;
-    margin-right: 15%;
     font-weight: 400;
     font-size: large;
     display: flex;
@@ -19,9 +43,79 @@
     justify-content: flex-end;
 }
 
-.logo{
-    color: white;
-    margin-right: 20%;
-    font-size: larger;
+#logo{
+    background-color: #1f2937;
+    color: rgb(255, 0, 0);
+    font-size: 35px;
     font-weight: bold;
 }}
+
+/* Hero Text, photo, CTA */
+
+.bluewrap  {
+width: 100%;
+background-color: #1f2937;
+
+
+}
+.landing{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-right: 10%;
+    margin-left: 17%;
+    flex-wrap: nowrap;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+}
+
+
+p{
+    font-size: 20px;
+}
+h1{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    }
+
+.rightcolumn{
+    margin-right: 0px;
+    align-items: center;
+    justify-content: right;
+}
+
+
+img{
+   flex: 1;
+   max-width: 90%;
+   max-height: 85%;
+}
+
+.blueboxes{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    .box{
+        padding: 5px;
+            background-color: #3882f6;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            border-radius: 8px;
+            width: 170px;
+            height: 170px;
+            margin-top: 25px;
+            
+    }
+}
+
+H2{
+    margin-top: 45px;
+    font-size: 35px;
+    color: #1f2937;
+    text-align: center;
+}
