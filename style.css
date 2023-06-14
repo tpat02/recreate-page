@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    color: white;
+    background-color: #1f2937;
+    align-items: center;
+    flex: 1;
+    display: flex;
+.nav{
+    color: white;
+    margin-right: 15%;
+    font-weight: 400;
+    font-size: large;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo{
+    color: white;
+    margin-right: 20%;
+    font-size: larger;
+    font-weight: bold;
+}}
