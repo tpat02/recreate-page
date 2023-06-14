@@ -70,10 +70,10 @@ background-color: #1f2937;
     flex-direction: row;
 }
 
-
+#herodesc{
 p{
     font-size: 20px;
-}
+}}
 h1{
     margin-bottom: 10px;
     font-weight: bold;
@@ -102,10 +102,12 @@ img{
     justify-content: center;
     .box{
         padding: 5px;
-            background-color: #3882f6;
-            color: rgb(255, 255, 255);
+            background-color: #ffffff;
             font-size: 20px;
-            border-radius: 8px;
+            border: 4px;
+            border-style: solid;
+            border-radius: 12px;
+            border-color: #3882f6;
             width: 170px;
             height: 170px;
             margin-top: 25px;
@@ -118,4 +120,75 @@ H2{
     font-size: 35px;
     color: #1f2937;
     text-align: center;
+}
+
+.subtextgroup{
+    color: rgb(82, 82, 82);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    .subtext{
+        max-width: 170px;
+        text-align: center;
+    }
+}
+
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 100px;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    .quote{
+        color: #1f2937;
+        line-height: 40px;
+        justify-content: right;
+        max-width: 800px;
+        font-size: 30px;
+        font-weight: 10;
+        font-style: italic;
+        text-align: left;
+    }
+   #byline{
+    margin-right: -30%;
+    text-justify: right;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: right;
+}}
+
+.ctabox{
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: #3882f6;
+    width: 60%;
+    min-height: 150px;
+    max-height: 150px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #3882f6;
+    #ctatext{
+        padding-left: 7%;
+        padding-top: 40px;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    #ctadesc{
+        padding-left: 7%;
+        padding-top: 4px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 100;
+    }
+ 
 }
